@@ -57,7 +57,7 @@ def sendData(c_socket):
     twitter_stream = Stream(auth, TweetListener(c_socket))
     # set a filter to track tweets with a string in the filter set
     # twitter_stream.filter(track=['2018','HNY','Happy New Year','สวัสดีปีใหม่'])
-    twitter_stream.filter(track=['BNK48'])
+    twitter_stream.filter(track=['#BNK48'])
     
 
 
