@@ -74,8 +74,7 @@ if __name__ == '__main__':
     
     print('listening on port:', port)
     
-    # listening period in second
-    s.listen(15)
+    s.listen()
     c, addr = s.accept()
     
     sendData(c)
